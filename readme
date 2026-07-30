@@ -1,8 +1,10 @@
 Banana Classification
-
-"Food Waste FAQs" U.S. Department of Agriculture, https://www.usda.gov/about-food/food-safety/food-loss-and-waste/food-waste-erview
+https://drive.google.com/file/d/1c-VX157eAwfzXRmO49PrB_0h16Yh20vE/view?usp=sharing 
+"Food Waste FAQs" U.S. Department of Agriculture, https://www.usda.gov/about-food/food-safety/food-loss-and-waste/food-waste-
+Overview
 
 Every year, ⅓ of all food produced for human consumption (an estimated 1.3 billion tons) is either lost or wasted according to the United Nations Food and Agriculture Organization (FAO). Fresh produce accounts for a large fraction of this waste because they spoil rapidly and are often thrown after if ripeness is misjudged. Consumers may throw away fruit when it's still edible, and grocery stores or other distributors face challenges when determining which produce should be sold, discounted, and removed before it rots. 
+https://drive.google.com/file/d/1vSTubClkZdsHwPr0cMeKQy57R-MRjPpr/view?usp=sharing 
 
 This project uses artificial intelligence to help address this issue by automatically determining the ripeness of a fruit (in this specific case a banana) based on a photo. The system analyzes important factors such as color, texture, bruising, and surface patterns to help classify the banana into one of four categories: unripe, ripe, overripe, and rotten. By providing quick and accurate predictions on ripeness, the AI model helps users make rational, informed decisions about when the fruit should be consumed or sold.
 
@@ -13,7 +15,7 @@ The negative effects of food waste extend globally throughout economies, environ
 This project aims to help reduce food waste by providing an accurate and accessible way for almost anyone to assess produce ripeness. Consumers can use the model to avoid throwing away edible produce, while grocery stores and distributors can improve inventory management by identifying which produce to sell first or discount before it spoils. By encouraging the timely consumption and reducing unnecessary waste, this system supports more sustainable food production and distribution.
 
 The Algorithm
-
+https://drive.google.com/file/d/1Voy-ef-Pyum6tX0z54G82kK_yPTU2I3k/view?usp=sharing
 I began by downloading a banana ripeness dataset from Kaggle and importing it into Vision Studio Code. The dataset contained images of bananas organized into four categories: unripe, ripe, overripe, and rotten. 
 Using this dataset, I trained the model so it could recognize visual features such as color, textures, and patterns that indicate different stages of ripeness. After the initial training, I expanded the dataset by adding more photos and retrained the model to help improve its accuracy for a wide variety of photos.
  Finally, I tested the model on new images it had not yet seen to insure its precision. When a new image is uploaded, the model predicts whether the fruit is unripe, ripe, overripe, or rotten and in addition a confidence score for each prediction.
@@ -35,4 +37,5 @@ python3 python/examples/imagenet.py \
 
 View the results: After the command finishes, the terminal will display:
 The predicted banana ripeness category (Unripe, Ripe, Overripe, or Rotten)
+https://drive.google.com/file/d/13r2K_iHDi64zDWvojGDuW9RFD8QbSjEP/view?usp=sharing
 A confidence score showing how certain the model is about its prediction
